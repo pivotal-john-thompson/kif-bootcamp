@@ -20,6 +20,7 @@
 {
     [tester waitForViewWithAccessibilityLabel:@"KIF Automator"];
     [tester waitForViewWithAccessibilityLabel:@"3"];
+    [tester tapViewWithAccessibilityLabel:@"This is a table"];
 }
 
 @end

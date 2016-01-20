@@ -38,6 +38,8 @@
     self.projectsLabel.text = [NSString stringWithFormat:@"%@", self.pivot.projectsLeading];
     self.submitButton.layer.cornerRadius = 3;
     // Do any additional setup after loading the view from its nib.
+    self.commentField.text = @"Insert Comment Here";
+    self.commentField.accessibilityLabel = @"Comment Field";
 }
 
 - (void)didReceiveMemoryWarning {
