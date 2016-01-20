@@ -22,6 +22,7 @@
 		AED39D7B1C5009E100628997 /* KIFUITestActor+EXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AED39D7A1C5009E100628997 /* KIFUITestActor+EXAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		AED39D811C5012AF00628997 /* Task1.m in Sources */ = {isa = PBXBuildFile; fileRef = AED39D801C5012AF00628997 /* Task1.m */; settings = {ASSET_TAGS = (); }; };
 		AED39D841C50216100628997 /* Task2.m in Sources */ = {isa = PBXBuildFile; fileRef = AED39D831C50216100628997 /* Task2.m */; settings = {ASSET_TAGS = (); }; };
+		AED39D871C50313000628997 /* Task3.m in Sources */ = {isa = PBXBuildFile; fileRef = AED39D861C50313000628997 /* Task3.m */; settings = {ASSET_TAGS = (); }; };
 		D2787351B732A525FF89B2D9 /* libPods-KIFBootcamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 		AED39D801C5012AF00628997 /* Task1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task1.m; sourceTree = "<group>"; };
 		AED39D821C501EF700628997 /* Task2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task2.h; sourceTree = "<group>"; };
 		AED39D831C50216100628997 /* Task2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task2.m; sourceTree = "<group>"; };
+		AED39D851C50312100628997 /* Task3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task3.h; sourceTree = "<group>"; };
+		AED39D861C50313000628997 /* Task3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task3.m; sourceTree = "<group>"; };
 		D0977F71D4EA6A9E8C3A8D9B /* libPods-UI Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UI Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95C5850E3B05E6FC939FCA3 /* Pods-UI Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UI Tests/Pods-UI Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +175,8 @@
 				AED39D7A1C5009E100628997 /* KIFUITestActor+EXAdditions.m */,
 				AED39D821C501EF700628997 /* Task2.h */,
 				AED39D831C50216100628997 /* Task2.m */,
+				AED39D851C50312100628997 /* Task3.h */,
+				AED39D861C50313000628997 /* Task3.m */,
 			);
 			path = "UI Tests";
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 				AED39D781C5008D300628997 /* LoginTestCase.m in Sources */,
 				AED39D7B1C5009E100628997 /* KIFUITestActor+EXAdditions.m in Sources */,
 				AED39D841C50216100628997 /* Task2.m in Sources */,
+				AED39D871C50313000628997 /* Task3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
